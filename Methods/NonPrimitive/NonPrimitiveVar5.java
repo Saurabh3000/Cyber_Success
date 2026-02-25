@@ -1,0 +1,12 @@
+class NonPrimitiveVar5
+{
+	char x = 'a';
+	static NonPrimitiveVar5 ref;
+	public static void main(String[] args)
+	{
+		System.out.println("Start");
+		ref = new NonPrimitiveVar5();
+		System.out.println(ref.x);
+		System.out.println("Stop");
+	}
+}
